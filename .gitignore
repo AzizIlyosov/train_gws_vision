@@ -1,0 +1,9 @@
+all_projects/**
+datasets/test/**
+datasets/train/**
+datasets/val/**
+yolo/images/**
+yolo/labels/**
+datasets/classes.txt
+**.pt
+runs/**
