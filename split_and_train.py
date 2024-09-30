@@ -46,9 +46,11 @@ def make_yolo_data(base_path = 'all_projects'):
                     if 'classes.txt' in name:
                         zip_ref.extract(name, 'yolo/')
 
-make_yolo_data()
-# exit()
- 
+make_yolo_data() 
+
+# this variable is set to True if you want to add data only for the training data
+# since frames between videos are very similar, it is better to add them only to the training data
+
 add_video_data=True
  
     
@@ -83,11 +85,7 @@ for proportion in training_proportions:
     for f in os.listdir('datasets/val/images'):
         os.remove('datasets/val/images/'+f)
     for f in os.listdir('datasets/val/labels'):
-        os.remove('datasets/val/labels/'+f)
-
-
-
-
+        os.remove('datasets/val/labels/'+f) 
 
 
     train_images = images[ :int(len(images)*proportion)]
