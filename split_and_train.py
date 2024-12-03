@@ -155,5 +155,5 @@ for proportion in training_proportions:
             # Train the model
             model = YOLO(m_name+'.yaml').load(m_name+'.pt')
             # mosaic =0.1 aniqligni ancha yaxshi oshirgandi 
-            model.train( data='data.yaml', batch=batch,  epochs=500,  patience=100,  imgsz=img_size, pretrained=True,  workers=8,device=0,  name='PEPSI_'+ m_name+'_'+ str(img_size)+"_"+str(int(len(images)*proportion)) , fliplr=0.0 ,  degrees=0.4, dropout=0.1, copy_paste=0.1 , mosaic=0)
+            model.train( data='data.yaml', batch=batch,  epochs=500,  patience=100,  imgsz=img_size, pretrained=True,  workers=8,  name='PEPSI_'+ m_name+'_'+ str(img_size)+"_"+str(int(len(images)*proportion)) , fliplr=0.0 ,  degrees=0.4, dropout=0.1, copy_paste=0.1 , mosaic=0)
             

@@ -7,3 +7,4 @@ yolo/labels/**
 datasets/classes.txt
 **.pt
 runs/**
+**/**.zip

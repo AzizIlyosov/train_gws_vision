@@ -1,6 +1,6 @@
-train: /home/aziz/Desktop/train_gws_vision/datasets/train/images
-val: /home/aziz/Desktop/train_gws_vision/datasets/val/images
-test: /home/aziz/Desktop/train_gws_vision/datasets/test/images
+train: datasets/train/images
+val: datasets/val/images
+test: datasets/test/images
 
 nc: 50
 
