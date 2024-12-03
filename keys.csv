@@ -1,0 +1,40 @@
+order,class,class_db
+0,7Up 0.25 can,00000002292
+1,7Up 0.25 nrgb,00000092360
+2,7Up 0.5 pet,00000000021
+3,7Up 1 pet,00000000020
+4,7Up 1.5 pet,00000000019
+5,Mirinda 0.25 can,00000002293
+6,Mirinda 0.25 nrgb,00000092359
+7,Mirinda 0.5 pet,00000000015
+8,Mirinda 1 pet,00000000014
+9,Mirinda 1.5 pet,00000000013
+10,MounDew 0.25 can,00000002337
+12,MounDew 0.5 pet,00000002351
+13,MounDew 1 pet,00000002339
+14,Pepsi 0.25 can,00000002257
+15,Pepsi 0.25 nrgb,00000092358
+16,Pepsi 0.25 rgb,00000002312
+17,Pepsi 0.26 pet,00000002362
+18,Pepsi 0.449 can,00000002305
+19,Pepsi 0.5 pet,00000000012
+20,Pepsi 1 pet,00000000011
+21,Pepsi 1.5 pet,00000000010
+22,Pepsi 2 pet,00000002329
+23,Pepsi Z 0.25 can,"00000092367"
+24,Pepsi Z 0.5 pet,"00000092368"
+25,Pepsi Z 1.5 pet,"00000092370"
+26,Tea_black_limon 0.5 pet,00000002342
+27,Tea_black_limon 1 pet,00000002346
+29,Tea_black_peach 0.5 pet,00000002331
+30,Tea_black_peach 1 pet,00000002350
+32,Tea_black_raspberry 0.5 pet,00000002341
+33,Tea_black_raspberry 1 pet,00000002343
+34,Tea_black_raspberry 1.5 pet,00000002344
+38,Tea_green_limon 0.5 pet,00000002347
+39,Tea_green_limon 1 pet,00000002348
+40,Tea_green_limon 1.5 pet,00000002345
+41,Tea_green_peach 0.5 pet,00000002349
+42,Tea_green_peach 1 pet,00000002353
+47,Tea_green_strawberry 0.5 pet,"00000092375"
+48,Tea_green_strawberry 1 pet,"00000092379"
